@@ -1,6 +1,6 @@
 <view class="content1">
   <view class="content-scroll">
-    <view class="content-scroll-text" style="left:{{_leftTxt}}" catch:touchstart="_touchstart" catch:touchend="_touchend"> 
+      <view class="content-scroll-text" style="left:{{_leftTxt}};width:calc(100% - {{_leftTxt}})" catch:touchstart="_touchstart" catch:touchend="_touchend"> 
       不实心不---------------------------------------1。
     </view>
     <view class="content-scroll-bt" style="left:calc(100% - {{_leftBt}}) ; width:{{_leftBt}}" bindtap="shanchu">
